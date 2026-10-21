@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
     child: Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children:[
-        Text(isFull ? 'Lotado!' : 'Pode entrar na resenha!',
+        Text(isFull ? 'Resenha lotada!' : 'Pode entrar na resenha!',
         style: TextStyle(
           fontSize: 26,
           color: isFull ? Colors.red : Color.fromARGB(255,4,87,154),
